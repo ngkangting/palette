@@ -83,8 +83,6 @@ body {
       font-weight: 500; }
 
 .container {
-  display: flex;
-  justify-content: center;
   padding: 5rem 7.5rem; }
 
 .row {
