@@ -1,12 +1,12 @@
 // COLOR VARIABLES
 :root {
-  --color-primary: #4e5ba6;
+  --color-heading: #4e5ba6;
 
-  --color-blue-light-1: #e0f2fe;
+  --color-background: #e0f2fe;
 
-  --color-grey-light-1: #fafafa;
-  --color-grey-light-2: #aaa;
-  --color-grey-dark-1: #7e7474;
+  --color-grey-light: #aaa;
+  --color-grey-dark: #7e7474;
+
   --color-white: #fff;
   --color-black: #000;
 }
@@ -92,5 +92,5 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.6;
-  background-color: var(--color-blue-light-1);
+  background-color: var(--color-background);
 }

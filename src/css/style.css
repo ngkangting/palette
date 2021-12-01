@@ -1,9 +1,8 @@
 :root {
-  --color-primary: #4e5ba6;
-  --color-blue-light-1: #e0f2fe;
-  --color-grey-light-1: #fafafa;
-  --color-grey-light-2: #aaa;
-  --color-grey-dark-1: #7e7474;
+  --color-heading: #4e5ba6;
+  --color-background: #e0f2fe;
+  --color-grey-light: #aaa;
+  --color-grey-dark: #7e7474;
   --color-white: #fff;
   --color-black: #000; }
 
@@ -52,40 +51,39 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.6;
-  background-color: var(--color-blue-light-1); }
+  background-color: var(--color-background); }
 
 .heading-primary {
   font-size: 7.5rem;
   font-weight: 700;
-  color: var(--color-primary); }
+  color: var(--color-heading); }
 
 .heading-tertiary {
   font-size: 2.5rem;
   font-weight: 500;
-  color: var(--color-grey-dark-1); }
+  color: var(--color-grey-dark); }
 
 .card {
   cursor: pointer;
-  background-color: white;
-  border-radius: 0.35rem;
+  background-color: var(--color-white);
+  border-radius: 0.3rem;
   overflow: hidden;
   box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.2);
   height: 12.5rem;
   width: 8.5rem;
   font-size: 1.4rem; }
   .card__color {
-    background-color: #fcfaff;
     height: 50%; }
   .card__details {
     padding: 1rem; }
     .card__details--weight {
       font-weight: 700; }
     .card__details--code {
-      color: var(--color-grey-light-2);
+      color: var(--color-grey-light);
       font-weight: 500; }
 
 .container {
-  padding: 5rem 10rem; }
+  padding: 5rem 7.5rem; }
 
 .row {
   display: grid;

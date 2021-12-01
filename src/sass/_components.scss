@@ -2,20 +2,20 @@
   &-primary {
     font-size: 7.5rem;
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-heading);
   }
 
   &-tertiary {
     font-size: 2.5rem;
     font-weight: 500;
-    color: var(--color-grey-dark-1);
+    color: var(--color-grey-dark);
   }
 }
 
 .card {
   cursor: pointer;
-  background-color: white;
-  border-radius: 0.35rem;
+  background-color: var(--color-white);
+  border-radius: 0.3rem;
   overflow: hidden;
   box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.2);
 
@@ -25,7 +25,6 @@
   font-size: 1.4rem;
 
   &__color {
-    background-color: #fcfaff;
     height: 50%;
   }
 
@@ -37,7 +36,7 @@
     }
 
     &--code {
-      color: var(--color-grey-light-2);
+      color: var(--color-grey-light);
       font-weight: 500;
     }
   }
