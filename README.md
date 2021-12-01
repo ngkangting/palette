@@ -1,6 +1,6 @@
-# Base
+# Palette
 
-Basic Template To Help You Get Start With Web Development!
+Color Palette To Help You With Web Development!
 
 ## Requirement
 
@@ -10,20 +10,20 @@ Basic Template To Help You Get Start With Web Development!
 
 ## Getting Started
 
-This guide outline the steps needed to start Base in a development enviroment.
+This guide outline the steps needed to start Palette in a development enviroment.
 
-- Fork the ngkangting/Base repository on Github under your username. You’ll end up with something like your_user_name/Base.
+- Fork the ngkangting/Palette repository on Github under your username. You’ll end up with something like your_user_name/Palette.
 
 - Clone your forked repository on your development machine.
 
 ```sh
- git clone git@github.com:ngkangting/Base.git
+ git clone git@github.com:ngkangting/Palette.git
 ```
 
 - Add a git remote with the git url of the main repository
 
 ```sh
- git remote add upstream git@github.com:ngkangting/Base.git
+ git remote add upstream git@github.com:ngkangting/Palette.git
 ```
 
 ## Install npm dependencies
@@ -66,7 +66,7 @@ npm install npm-run-all --save-dev
 
 ## Development
 
-- Start Base Project in development environment
+- Start Palette Project in development environment
 
 ```sh
 npm run start
@@ -74,12 +74,12 @@ npm run start
 
 ## Production
 
-- Build Base Project for production environment
+- Build Palette Project for production environment
 
 ```sh
 npm run build:css
 ```
 
-## View Base Project in development environment
+## View Palette Project in development environment
 
-To view Base Project in development environment, go to http://localhost:8080
+To view Palette Project in development environment, go to http://localhost:8080

@@ -1,0 +1,44 @@
+.heading {
+  &-primary {
+    font-size: 7.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  &-tertiary {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--color-grey-dark-1);
+  }
+}
+
+.card {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 0.35rem;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.2);
+
+  height: 12.5rem;
+  width: 8.5rem;
+
+  font-size: 1.4rem;
+
+  &__color {
+    background-color: #fcfaff;
+    height: 50%;
+  }
+
+  &__details {
+    padding: 1rem;
+
+    &--weight {
+      font-weight: 700;
+    }
+
+    &--code {
+      color: var(--color-grey-light-2);
+      font-weight: 500;
+    }
+  }
+}

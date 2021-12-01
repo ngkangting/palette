@@ -1,7 +1,7 @@
 {
-  "name": "base",
+  "name": "palette",
   "version": "1.0.0",
-  "description": "Basic Template",
+  "description": "Color Palette",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass src/sass/main.scss src/css/style.css -w",
